@@ -1,0 +1,198 @@
+[
+    {
+        "student_id": 1,
+        "name": "John Doe",
+        "email": "johndoe@love.com",
+        "password": "123",
+        "profile": {
+            "full_name": "John Doe",
+            "major": "Computer Science",
+            "student_number": "123456789",
+            "date_of_birth": "1998-05-10",
+            "gender": "Male"
+        },
+        "registration_history": [
+            {
+                "term": "2023-1",
+                "courses": [
+                    {
+                        "course_code": "love001",
+                        "course_name": "ทฤษฎีความรัก 21 วัน",
+                        "credits": 3,
+                        "score": 90,
+                        "grade": "A",
+                        "status": "Registered"
+                    },
+                    {
+                        "course_code": "love002",
+                        "course_name": "เข้าใจคนรัก 101",
+                        "credits": 4,
+                        "score": 80,
+                        "grade": "B",
+                        "status": "Registered"
+                    }
+                ]
+            }
+        ],
+        "available_courses": [
+            {
+                "course_code": "love003",
+                "course_name": "ฟิสิกส์ของหัวใจ",
+                "credits": 3
+            },
+            {
+                "course_code": "love004",
+                "course_name": "รัก 101",
+                "credits": 3
+            }
+        ],
+        "withdrawn_courses": []
+    },
+    {
+        "student_id": 2,
+        "name": "Jane Smith",
+        "email": "janesmith@love.com",
+        "password": "456",
+        "profile": {
+            "full_name": "Jane Smith",
+            "major": "Psychology",
+            "student_number": "987654321",
+            "date_of_birth": "2000-10-20",
+            "gender": "Female"
+        },
+        "registration_history": [
+            {
+                "term": "2023-1",
+                "courses": [
+                    {
+                        "course_code": "love003",
+                        "course_name": "ฟิสิกส์ของหัวใจ",
+                        "credits": 3,
+                        "score": 85,
+                        "grade": "B+",
+                        "status": "Completed"
+                    },
+                    {
+                        "course_code": "love004",
+                        "course_name": "รัก 101",
+                        "credits": 4,
+                        "score": 88,
+                        "grade": "A-",
+                        "status": "Completed"
+                    }
+                ]
+            }
+        ],
+        "available_courses": [
+            {
+                "course_code": "love005",
+                "course_name": "มิตรภาพก่อนรัก",
+                "credits": 3
+            },
+            {
+                "course_code": "love006",
+                "course_name": "โค้ดลับของความสัมพันธ์",
+                "credits": 3
+            }
+        ],
+        "withdrawn_courses": []
+    },
+    {
+        "student_id": 3,
+        "name": "Samuel Green",
+        "email": "samuelgreen@example.com",
+        "password": "789",
+        "profile": {
+            "full_name": "Samuel Green",
+            "major": "Sociology",
+            "student_number": "192837465",
+            "date_of_birth": "1999-02-15",
+            "gender": "Male"
+        },
+        "registration_history": [
+            {
+                "term": "2023-1",
+                "courses": [
+                    {
+                        "course_code": "love007",
+                        "course_name": "เลิกกับรัก",
+                        "credits": 3,
+                        "score": 70,
+                        "grade": "C",
+                        "status": "Registered"
+                    },
+                    {
+                        "course_code": "love008",
+                        "course_name": "ฟื้นตัวหลังจากอกหัก",
+                        "credits": 4,
+                        "score": 78,
+                        "grade": "C+",
+                        "status": "Registered"
+                    }
+                ]
+            }
+        ],
+        "available_courses": [
+            {
+                "course_code": "love009",
+                "course_name": "บำบัดด้วยเพลงอกหัก",
+                "credits": 3
+            },
+            {
+                "course_code": "love010",
+                "course_name": "อกหักสู่การเติบโต",
+                "credits": 3
+            }
+        ],
+        "withdrawn_courses": []
+    },
+    {
+        "student_id": 4,
+        "name": "Emily White",
+        "email": "emilywhite@example.com",
+        "password": "321",
+        "profile": {
+            "full_name": "Emily White",
+            "major": "Philosophy",
+            "student_number": "112233445",
+            "date_of_birth": "1997-11-25",
+            "gender": "Female"
+        },
+        "registration_history": [
+            {
+                "term": "2023-1",
+                "courses": [
+                    {
+                        "course_code": "love005",
+                        "course_name": "มิตรภาพก่อนรัก",
+                        "credits": 3,
+                        "score": 95,
+                        "grade": "A",
+                        "status": "Completed"
+                    },
+                    {
+                        "course_code": "love006",
+                        "course_name": "โค้ดลับของความสัมพันธ์",
+                        "credits": 4,
+                        "score": 92,
+                        "grade": "A",
+                        "status": "Completed"
+                    }
+                ]
+            }
+        ],
+        "available_courses": [
+            {
+                "course_code": "love007",
+                "course_name": "เลิกกับรัก",
+                "credits": 3
+            },
+            {
+                "course_code": "love008",
+                "course_name": "ฟื้นตัวหลังจากอกหัก",
+                "credits": 3
+            }
+        ],
+        "withdrawn_courses": []
+    }
+]

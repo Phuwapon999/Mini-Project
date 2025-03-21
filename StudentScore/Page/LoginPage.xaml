@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudentScore.Page.LoginPage"
+             xmlns:viewmodel="clr-namespace:StudentScore.ViewModel"
+             x:DataType="viewmodel:LoginViewModel"
+             Title="LoginPage">
+    <VerticalStackLayout Padding="0" Spacing="15">
+        <Grid RowDefinitions="85, Auto">
+            <Grid BackgroundColor="#FF1C9FC3" ColumnDefinitions="*,Auto" Row="0">
+                <Image Source="logo.png"
+                       WidthRequest="100"
+                       HeightRequest="100"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Center"/>
+                <Label Text="มหาวิทยาลัยเกรดมีไว้ลุ้นส่วนคุณมีไว้รัก"
+                       FontSize="16"
+                       FontAttributes="Bold"
+                       TextColor="White"
+                       VerticalOptions="Center"
+                       Padding="90,0,0,15"/>
+                <Label Text="Grade Mee Wai Lun Sorn Khon Mee Wai Rak University"
+                       FontSize="11"
+                       FontAttributes="Bold"
+                       TextColor="White"
+                       VerticalOptions="Center"
+                       Padding="90,20,0,0"/>
+            </Grid>
+
+            <Grid BackgroundColor="#FF6AD2E0"
+                   Padding="20"
+                   ColumnDefinitions="*,Auto"
+                   HeightRequest="20"
+                   Row="1"/>
+        </Grid>
+        <FlexLayout JustifyContent="Center"
+                    AlignItems="Center">
+            <Label Text="เข้าสู่ระบบ"
+                   FontSize="25"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   VerticalOptions="Center"
+                   Padding="0,60,0,0"/>
+        </FlexLayout>
+        <Grid Padding="320,40,320,0"
+              RowDefinitions="Auto, Auto, Auto"
+              ColumnDefinitions="*">
+            <!-- Bind to LoginViewModel properties -->
+            <Entry x:Name="emailEntry"
+                   Placeholder="อีเมล"
+                   Keyboard="Email"
+                   Grid.Row="0"
+                   Margin="0,10"
+                   Text="{Binding Email}"/>
+            <Entry x:Name="passwordEntry"
+                   Placeholder="รหัสผ่าน"
+                   IsPassword="True"
+                   Grid.Row="1"
+                   Margin="0,10"
+                   Text="{Binding Password}"/>
+            <!-- Bind to LoginCommand in ViewModel -->
+            <Button Text="เข้าสู่ระบบ"
+                    BackgroundColor="#FF457ECF"
+                    TextColor="White"
+                    Command="{Binding LoginCommand}" 
+                    Grid.Row="2"
+                    Margin="0,20"/>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>
